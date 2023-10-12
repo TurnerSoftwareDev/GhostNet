@@ -56,7 +56,7 @@ before continuing.
 1. Clone the repo
    ```shell
    git clone https://github.com/TurnerSoftwareDev/GhostNet.git
-   cd ghostnet
+   cd GhostNet
    ```
 2. Install NPM packages
    ```shell

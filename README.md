@@ -48,7 +48,7 @@ before continuing.
 
 1. Clone the repo
    ```shell
-   git clone https://github.com/TurnerSoftwareDev/ghostnet.git
+   git clone https://github.com/TurnerSoftwareDev/GhostNet.git
    cd ghostnet
    ```
 2. Install NPM packages
@@ -81,7 +81,7 @@ before continuing.
     - [ ] A4
     - [ ] Wallet size
 
-See the [open issues](https://github.com/TurnerSoftwareDev/ghostnet/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/TurnerSoftwareDev/GhostNet/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +112,7 @@ Rights to the content (i.e. written text) about GhostNet are retained by S2 Unde
 
 Eric Turner - [@EricTheTurner](https://twitter.com/EricTheTurner) - eric@ericturner.dev
 
-Project Link: [https://github.com/TurnerSoftwareDev/ghostnet](https://github.com/TurnerSoftwareDev/ghostnet)
+Project Link: [https://github.com/TurnerSoftwareDev/GhostNet](https://github.com/TurnerSoftwareDev/GhostNet)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,15 +126,15 @@ Project Link: [https://github.com/TurnerSoftwareDev/ghostnet](https://github.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/TurnerSoftwareDev/ghostnet.svg?style=for-the-badge
-[contributors-url]: https://github.com/TurnerSoftwareDev/ghostnet/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/TurnerSoftwareDev/ghostnet.svg?style=for-the-badge
-[forks-url]: https://github.com/TurnerSoftwareDev/ghostnet/network/members
-[stars-shield]: https://img.shields.io/github/stars/TurnerSoftwareDev/ghostnet.svg?style=for-the-badge
-[stars-url]: https://github.com/TurnerSoftwareDev/ghostnet/stargazers
-[issues-shield]: https://img.shields.io/github/issues/TurnerSoftwareDev/ghostnet.svg?style=for-the-badge
-[issues-url]: https://github.com/TurnerSoftwareDev/ghostnet/issues
-[license-shield]: https://img.shields.io/github/license/TurnerSoftwareDev/ghostnet.svg?style=for-the-badge
-[license-url]: https://github.com/TurnerSoftwareDev/ghostnet/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/TurnerSoftwareDev/GhostNet.svg?style=for-the-badge
+[contributors-url]: https://github.com/TurnerSoftwareDev/GhostNet/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TurnerSoftwareDev/GhostNet.svg?style=for-the-badge
+[forks-url]: https://github.com/TurnerSoftwareDev/GhostNet/network/members
+[stars-shield]: https://img.shields.io/github/stars/TurnerSoftwareDev/GhostNet.svg?style=for-the-badge
+[stars-url]: https://github.com/TurnerSoftwareDev/GhostNet/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TurnerSoftwareDev/GhostNet.svg?style=for-the-badge
+[issues-url]: https://github.com/TurnerSoftwareDev/GhostNet/issues
+[license-shield]: https://img.shields.io/github/license/TurnerSoftwareDev/GhostNet.svg?style=for-the-badge
+[license-url]: https://github.com/TurnerSoftwareDev/GhostNet/blob/master/LICENSE.txt
 [Eleventy.js]: https://img.shields.io/badge/11ty-000000?style=for-the-badge
 [Eleventy-url]: https://www.11ty.dev

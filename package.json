@@ -1,7 +1,7 @@
 {
   "name": "ghostnet",
   "version": "1.0.0",
-  "description": "",
+  "description": "Website with information about S2 Undergrounds GhostNet for amateur radio",
   "main": "index.js",
   "scripts": {
     "build:eleventy": "eleventy",
@@ -10,7 +10,10 @@
     "build": "del-cli ./_site --force && npm-run-all --parallel build:*"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Eric Turner",
+    "email": "eric@ericturner.dev"
+  },
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

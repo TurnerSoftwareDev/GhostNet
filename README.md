@@ -32,6 +32,7 @@ should be directed toward the creator of [that project](https://github.com/s2und
 ### Built With
 
 * [![Eleventy][Eleventy.js]][Eleventy-url]
+* [![Vivliostyle][Vivliostyle]][Vivliostyle-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -58,18 +59,18 @@ before continuing.
    git clone https://github.com/TurnerSoftwareDev/GhostNet.git
    cd GhostNet
    ```
-2. Install NPM packages
+2. Install NPM packages (this takes a while)
    ```shell
    npm install
    ```
-3. Run locally for development
+3. Run locally for developing the website
    ```shell
    npm start
    ```
    Then navigate in your browser to http://localhost:8080. Your browser will
    automatically load any changes you make while developing, so you don't have to keep hitting the
    refresh button.
-4. Generate website assets for deployment
+4. Generate website assets and PDFs for deployment
    ```shell
    npm run build
    ```
@@ -145,3 +146,5 @@ Project Link: [https://github.com/TurnerSoftwareDev/GhostNet](https://github.com
 [license-url]: https://github.com/TurnerSoftwareDev/GhostNet/blob/master/LICENSE.txt
 [Eleventy.js]: https://img.shields.io/badge/11ty-000000?style=for-the-badge
 [Eleventy-url]: https://www.11ty.dev
+[Vivliostyle]: https://img.shields.io/badge/Vivliostyle-1F4BF8?style=for-the-badge
+[Vivliostyle-url]: https://vivliostyle.org

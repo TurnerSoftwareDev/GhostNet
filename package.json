@@ -6,8 +6,17 @@
   "scripts": {
     "build:eleventy": "eleventy",
     "watch:eleventy": "eleventy --serve",
-    "start": "del-cli ./_site --force && npm-run-all --parallel watch:*",
-    "build": "del-cli ./_site --force && npm-run-all --parallel build:*"
+    "pdf": "npm-run-all --parallel pdf:*",
+    "pdf:fourxsix": "vivliostyle build ./_site/paged/index.html --style ./_site/assets/styles/four-by-six.css --size 4in,6in --output ./_site/assets/ghostnet-4x6.pdf",
+
+    "start": "npm-run-all --parallel watch:*",
+    "prestart": "npm run clean",
+
+    "build": "npm-run-all --parallel build:*",
+    "prebuild": "npm run clean",
+    "postbuild": "npm run pdf",
+
+    "clean": "del-cli ./_site --force"
   },
   "keywords": [],
   "author": {
@@ -17,6 +26,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@vivliostyle/cli": "^8.3.1",
     "del-cli": "^5.1.0",
     "markdown-it": "^13.0.2",
     "npm-run-all": "^4.1.5"

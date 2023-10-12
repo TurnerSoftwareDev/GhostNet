@@ -20,7 +20,7 @@ generated website will eventually include the ability to download PDFs of the in
 in a variety of standard sizes.
 
 I am not affiliated with S2 Underground, so any feedback on GhostNet as a project
-should be directed toward the creator of that project.
+should be directed toward the creator of [that project](https://github.com/s2underground/GhostNet).
 
 ### Built With
 
@@ -59,8 +59,8 @@ before continuing.
    ```shell
    npm start
    ```
-   Then navigate to in your browser to http://localhost:8080. Your browser will
-   automatically load any changes you make so you don't have to keep hitting the
+   Then navigate in your browser to http://localhost:8080. Your browser will
+   automatically load any changes you make while developing, so you don't have to keep hitting the
    refresh button.
 4. Generate website assets for deployment
    ```shell
@@ -102,7 +102,9 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the ISC License. See `LICENSE.txt` for more information.
+Software is distributed under the ISC License. See `LICENSE.txt` for more information.
+
+Rights to the content (i.e. written text) about GhostNet are retained by S2 Underground.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,6 +118,7 @@ Project Link: [https://github.com/TurnerSoftwareDev/ghostnet](https://github.com
 
 ## Acknowledgments
 
+* [@s2underground (GitHub)](https://github.com/s2underground/GhostNet)
 * [@S2Underground (YouTube)](https://www.youtube.com/c/S2Underground)
 * [@s2_underground (X)](https://twitter.com/s2_underground)
 

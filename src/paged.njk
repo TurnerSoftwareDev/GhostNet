@@ -2,8 +2,8 @@
 layout: layouts/paged.njk
 ---
 
-<div class="document">
-    <div class="page">
+<article>
+    <section class="page">
         <p class="version">Version 1.2</p>
         <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span
                 class="largechar">O</span>verview</h1>
@@ -16,9 +16,10 @@ layout: layouts/paged.njk
         </div>
         <section>{% markdown %}{%- include 'pages/overview/receive-only.md' -%}{% endmarkdown %}</section>
         <section>{% markdown %}{%- include 'pages/overview/ion2g-ale-networks.md' -%}{% endmarkdown %}</section>
-    </div>
+        <div class="pagenum"></div>
+    </section>
 
-    <div class="page">
+    <section class="page">
         <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span
                 class="largechar">C</span>oncept</h1>
         <section>{% markdown %}{%- include 'pages/concept/intro.md' -%}{% endmarkdown %}</section>
@@ -26,5 +27,6 @@ layout: layouts/paged.njk
         <section class="simple bordered">{% markdown %}{%- include 'pages/concept/simple.md' -%}{% endmarkdown %}
         </section>
         <section>{% markdown %}{%- include 'pages/concept/ale.md' -%}{% endmarkdown %}</section>
-    </div>
-</div>
+        <div class="pagenum"></div>
+    </section>
+</article>

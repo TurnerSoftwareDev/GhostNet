@@ -1,0 +1,47 @@
+.text-centered {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.bordered {
+    border-color: #000;
+    border-style: solid;
+}
+
+.version {
+    color: crimson;
+}
+
+.baofeng {
+    background-color: #f1d2d2;
+}
+
+.exchange-paths {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.exchange-paths > .exchange-path {
+    text-align: center;
+}
+
+.exchange-paths > .forty-meter-networks {
+    background-color: #f1d2d2;
+}
+
+.exchange-paths > .data-bridges {
+    background-color: #cce3f0;
+}
+
+.simple {
+    background-color: #fddfcd;
+}

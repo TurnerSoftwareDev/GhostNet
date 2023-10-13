@@ -6,6 +6,10 @@
     text-transform: uppercase;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -21,7 +25,7 @@
 }
 
 .baofeng {
-    background-color: #f1d2d2;
+    background-color: #fddfcd;
 }
 
 .exchange-paths {

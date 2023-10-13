@@ -6,15 +6,15 @@
   "scripts": {
     "build:eleventy": "eleventy",
     "watch:eleventy": "eleventy --serve",
+
     "pdf": "npm-run-all --parallel pdf:*",
-    "pdf:fourxsix": "vivliostyle build ./_site/paged/index.html --style ./_site/assets/styles/four-by-six.css --output ./_site/assets/ghostnet-4x6.pdf",
+    "pdf:fourxsix": "vivliostyle build ./_site/paged/index.html --size 4in,6in --style ./src/assets/styles/four-by-six.css --output ./src/assets/pdfs/ghostnet-4x6.pdf",
 
     "start": "npm-run-all --parallel watch:*",
     "prestart": "npm run clean",
 
     "build": "npm-run-all --parallel build:*",
     "prebuild": "npm run clean",
-    "postbuild": "npm run pdf",
 
     "clean": "del-cli ./_site --force"
   },

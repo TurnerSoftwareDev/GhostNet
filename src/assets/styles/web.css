@@ -36,6 +36,10 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*
     === Custom styles ===
 */
@@ -64,6 +68,11 @@ p {
     margin-bottom: 0.5rem;
 }
 
+.icon {
+    display: inline;
+    vertical-align: middle;
+}
+
 .largechar {
     font-size-adjust: 0.66;
 }
@@ -85,11 +94,30 @@ p {
     border: 2px solid #000;
 }
 
+.downloads {
+    display: flex;
+    flex-direction: row;
+}
+
+.downloads ul {
+    padding-left: 1rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.downloads li {
+    margin-right: 1rem;
+}
+
+.downloads li.disabled a {
+    color: #777;
+    cursor: default;
+}
+
 .version {
     color: crimson;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+    text-align: right;
 }
 
 .baofeng {

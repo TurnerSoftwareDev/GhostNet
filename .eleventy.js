@@ -21,6 +21,7 @@ module.exports = function (eleventyConfig) {
             '**/*.jpeg',
             '**/*.js',
             '**/*.md',
+            '**/*.pdf',
             '**/*.png',
             '**/*.svg',
             '**/*.tff',

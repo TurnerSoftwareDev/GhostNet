@@ -4,6 +4,27 @@ layout: layouts/web.njk
 
 <p class="version">Version 1.2</p>
 
+<div class="downloads">
+    <p>Download a printable version:</p>
+    <ul>
+        <li>
+            <a href="/assets/pdfs/ghostnet-4x6.pdf" download>4x6 in</a> <img class="icon" width="16" height="16" src="/assets/icons/pdf.svg" alt="PDF"/>
+        </li>
+        <li class="disabled">
+            <a href="#" download>US Letter</a> <img class="icon" width="16" height="16" src="/assets/icons/pdf.svg" alt="PDF"/>
+        </li>
+        <li class="disabled">
+            <a href="#" download>Wallet</a> <img class="icon" width="16" height="16" src="/assets/icons/pdf.svg" alt="PDF"/>
+        </li>
+        <li class="disabled">
+            <a href="#" download>A5</a> <img class="icon" width="16" height="16" src="/assets/icons/pdf.svg" alt="PDF"/>
+        </li>
+        <li class="disabled">
+            <a href="#" download>A4</a> <img class="icon" width="16" height="16" src="/assets/icons/pdf.svg" alt="PDF"/>
+        </li>
+    </ul>
+</div>
+
 <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span class="largechar">O</span>verview</h1>
 <section>{% markdown %}{%- include "pages/overview/intro.md" -%}{% endmarkdown %}</section>
 <section>{% markdown %}{%- include 'pages/overview/weekly-js8call.md' -%}{% endmarkdown %}</section>

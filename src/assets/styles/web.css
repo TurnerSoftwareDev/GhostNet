@@ -39,6 +39,13 @@ p {
     border-width: 2px;
 }
 
+.disclaimer {
+    padding: 0.5rem;
+    background-color: rgb(248, 215, 218);
+    border: 1px solid #f1aeb5;
+    border-radius: 0.375rem;
+}
+
 .downloads {
     display: flex;
     flex-direction: row;

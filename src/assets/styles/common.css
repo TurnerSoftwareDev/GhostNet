@@ -10,6 +10,10 @@
     font-weight: bold;
 }
 
+.text-italic {
+    font-style: italic;
+}
+
 .row {
     display: flex;
     flex-direction: row;

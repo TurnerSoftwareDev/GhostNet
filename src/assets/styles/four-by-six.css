@@ -7,6 +7,21 @@
     border: .0325in solid #bdb8ad; /* 1/16th inch */
 }
 
+.unofficial {
+    position: relative;
+}
+
+.unofficial:before {
+    position: absolute;
+    content: "UNOFFICIAL";
+    font-size: 50pt;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) rotate(300deg);
+    color: rgba(220, 20, 60, 0.3);
+    z-index: 999;
+}
+
 .pagenum {
     position: absolute;
     bottom: .0325in; /* 1/16th inch */

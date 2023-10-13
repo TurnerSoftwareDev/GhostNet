@@ -8,6 +8,9 @@
 [![MIT License][license-shield]][license-url]
 
 <br />
+
+# The Unofficial GhostNet Documentation Project
+
 <p align="center">
     Generates a website of GhostNet information.
     <br />
@@ -92,6 +95,7 @@ before continuing.
 
 - [x] Generate a website with content from the first two pages of S2U's PDF
 - [x] Create a 4" x 6" printable PDF from the website
+- [x] Format the 4x6 PDF to look similar to the original
 - [ ] Add the remaining content to the website and 4x6 PDF from S2U's PDF, and format them nicely
 - [ ] Set up a domain name for the website
 - [ ] Create additional standard-size printable PDFs from the website

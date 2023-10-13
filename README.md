@@ -22,9 +22,8 @@ exchange information without relying on pre-established infrastructure. I really
 the idea, and the 4" x 6" PDF document he publishes is very useful, but I would also
 like the information to be available as a website and in a variety of standard print sizes.
 
-This project builds a website containing S2 Underground's GhostNet information. The
-generated website will eventually include the ability to download PDFs of the information
-in a variety of standard sizes.
+This project builds a website containing S2 Underground's GhostNet information, and
+a 4x6 inch PDF for download.
 
 I am not affiliated with S2 Underground, so any feedback on GhostNet as a project
 should be directed toward the creator of [that project](https://github.com/s2underground/GhostNet).
@@ -70,19 +69,30 @@ before continuing.
    Then navigate in your browser to http://localhost:8080. Your browser will
    automatically load any changes you make while developing, so you don't have to keep hitting the
    refresh button.
+
+   Update the PDFs with the latest website build.
+   ```shell
+   npm run pdf
+   ```
+
 4. Generate website assets and PDFs for deployment
    ```shell
    npm run build
    ```
    The website assets to deploy will be found in the `_site` directory.
 
+   Update the PDFs with the latest website build.
+   ```shell
+   npm run pdf
+   ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
 
 - [x] Generate a website with content from the first two pages of S2U's PDF
-- [ ] Create a 4" x 6" printable PDF from the website
-- [ ] Add the remaining content to the website from S2U's PDF
+- [x] Create a 4" x 6" printable PDF from the website
+- [ ] Add the remaining content to the website from S2U's PDF, and format it nicely
 - [ ] Set up a domain name for the website
 - [ ] Create additional standard-size printable PDFs from the website
     - [ ] A5

@@ -92,7 +92,7 @@ before continuing.
 
 - [x] Generate a website with content from the first two pages of S2U's PDF
 - [x] Create a 4" x 6" printable PDF from the website
-- [ ] Add the remaining content to the website from S2U's PDF, and format it nicely
+- [ ] Add the remaining content to the website and 4x6 PDF from S2U's PDF, and format them nicely
 - [ ] Set up a domain name for the website
 - [ ] Create additional standard-size printable PDFs from the website
     - [ ] A5

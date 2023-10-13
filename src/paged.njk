@@ -1,0 +1,32 @@
+---
+layout: layouts/paged.njk
+---
+
+<article>
+    <section class="page">
+        <p class="version">Version 1.2</p>
+        <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span
+                class="largechar">O</span>verview</h1>
+        <section>{% markdown %}{%- include "pages/overview/intro.md" -%}{% endmarkdown %}</section>
+        <section>{% markdown %}{%- include 'pages/overview/weekly-js8call.md' -%}{% endmarkdown %}</section>
+        <div class="row">
+            <section>{% markdown %}{%- include 'pages/overview/data-bridges.md' -%}{% endmarkdown %}</section>
+            <aside class="baofeng bordered">{% markdown %}{%- include 'pages/overview/baofeng.md' -%}{% endmarkdown %}
+            </aside>
+        </div>
+        <section>{% markdown %}{%- include 'pages/overview/receive-only.md' -%}{% endmarkdown %}</section>
+        <section>{% markdown %}{%- include 'pages/overview/ion2g-ale-networks.md' -%}{% endmarkdown %}</section>
+        <div class="pagenum"></div>
+    </section>
+
+    <section class="page">
+        <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span
+                class="largechar">C</span>oncept</h1>
+        <section>{% markdown %}{%- include 'pages/concept/intro.md' -%}{% endmarkdown %}</section>
+        <section class="info-exchange-paths">{%- include 'pages/concept/info-exchange-paths.html' -%}</section>
+        <section class="simple bordered">{% markdown %}{%- include 'pages/concept/simple.md' -%}{% endmarkdown %}
+        </section>
+        <section>{% markdown %}{%- include 'pages/concept/ale.md' -%}{% endmarkdown %}</section>
+        <div class="pagenum"></div>
+    </section>
+</article>

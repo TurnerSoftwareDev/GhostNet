@@ -1,0 +1,173 @@
+/*
+    === CSS reset ===
+
+    See https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/* A more intuitive box sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+}
+
+/* Accessible line height (per the WAG), and better text rendering */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Improve media defaults */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Remove built-in form typography styles */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+    === Custom styles ===
+*/
+
+body {
+    margin: 1rem;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+.icon {
+    display: inline;
+    vertical-align: middle;
+}
+
+.largechar {
+    font-size-adjust: 0.66;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.bordered {
+    border: 2px solid #000;
+}
+
+.downloads {
+    display: flex;
+    flex-direction: row;
+}
+
+.downloads ul {
+    padding-left: 1rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 675px) {
+    .downloads {
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+    }
+
+    .downloads ul {
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+    .downloads li {
+        padding: 0.25rem 0 0.25rem 0.25rem;
+    }
+}
+
+.downloads li {
+    margin-right: 1rem;
+}
+
+.downloads li.disabled a {
+    color: #777;
+    cursor: default;
+}
+
+.version {
+    color: crimson;
+    text-align: right;
+}
+
+.baofeng {
+    background-color: bisque;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.exchange-paths {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.exchange-paths > .exchange-path {
+    padding: 1rem;
+    text-align: center;
+}
+
+.exchange-paths > .forty-meter-networks {
+    background-color: #f1d2d2;
+}
+
+.exchange-paths > .data-bridges {
+    background-color: #cce3f0;
+}
+
+.simple {
+    background-color: #fddfcd;
+    padding: 1rem;
+}
+
+.footnote {
+    font-size: small;
+    font-style: italic;
+}

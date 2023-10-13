@@ -1,46 +1,4 @@
 /*
-    === CSS reset ===
-
-    See https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-
-/* A more intuitive box sizing model */
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-/* Remove default margin */
-* {
-    margin: 0;
-}
-
-/* Accessible line height (per the WAG), and better text rendering */
-body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-}
-
-/* Improve media defaults */
-img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-}
-
-/* Remove built-in form typography styles */
-input, button, textarea, select {
-    font: inherit;
-}
-
-/* Avoid text overflows */
-p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-}
-
-a {
-    text-decoration: none;
-}
-
-/*
     === Custom styles ===
 */
 
@@ -77,21 +35,8 @@ p {
     font-size-adjust: 0.66;
 }
 
-.text-centered {
-    text-align: center;
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-}
-
 .bordered {
-    border: 2px solid #000;
+    border-width: 2px;
 }
 
 .downloads {
@@ -132,42 +77,26 @@ p {
 }
 
 .version {
-    color: crimson;
     text-align: right;
 }
 
 .baofeng {
-    background-color: bisque;
     margin-left: 1rem;
     padding: 1rem;
 }
 
 .exchange-paths {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     column-gap: 10px;
 }
 
 .exchange-paths > .exchange-path {
     padding: 1rem;
-    text-align: center;
-}
-
-.exchange-paths > .forty-meter-networks {
-    background-color: #f1d2d2;
-}
-
-.exchange-paths > .data-bridges {
-    background-color: #cce3f0;
 }
 
 .simple {
-    background-color: #fddfcd;
     padding: 1rem;
 }
 
 .footnote {
     font-size: small;
-    font-style: italic;
 }

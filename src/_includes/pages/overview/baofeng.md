@@ -1,4 +1,4 @@
-## What About My Baofeng?
+### What About My Baofeng?
 
 Unencrypted analog
 communications are not generally

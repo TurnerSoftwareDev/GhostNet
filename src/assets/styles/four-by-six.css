@@ -1,3 +1,5 @@
+@import url("common.css");
+
 @page {
     size: 4in 6in;
     margin: 0;
@@ -18,12 +20,18 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 6pt;
     line-height: 1.0;
 }
 
+p {
+    font-family: Bahnschrift, sans-serif;
+    font-size: 6.5pt;
+    letter-spacing: -0.06em;
+}
+
 h1 {
-    font-size: 12pt;
+    font-family: MinionPro-Regular, serif;
+    font-size: 13pt;
     font-weight: lighter;
 }
 
@@ -31,64 +39,48 @@ h1 > .largechar {
     font-size: 18pt;
 }
 
+h2,h3,h4 {
+    font-family: Impact, serif;
+    font-weight: lighter;
+}
+
 h2 {
     font-size: 10pt;
-    font-weight: bold;
 }
 
-.text-centered {
-    text-align: center;
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
+h3 {
+    font-size: 8pt;
 }
 
 .bordered {
-    border: .015625in solid #000; /* 1/64th inch */
+    border-width: .015625in; /* 1/64th inch */
 }
 
 .version {
-    color: crimson;
     position: absolute;
     top: .0325in; /* 1/16th inch */
     right: .0325in; /* 1/16th inch */
 }
 
 .baofeng {
-    background-color: #fddfcd;
+    padding: .015625in; /* 1/64th inch */
+    margin-left: .03125in; /* 1/32th inch */
 }
 
 .exchange-paths {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     column-gap: .03125in; /* 1/32th inch */
 }
 
 .exchange-paths > .exchange-path {
-    text-align: center;
-}
-
-.exchange-paths > .forty-meter-networks {
-    background-color: #f1d2d2;
-}
-
-.exchange-paths > .data-bridges {
-    background-color: #cce3f0;
-}
-
-.simple {
-    background-color: #fddfcd;
+    padding: .015625in; /* 1/64th inch */
 }
 
 .footnote {
     font-size: 4pt;
+}
+
+.simple {
+    padding: .015625in; /* 1/64th inch */
 }
 
 @media print {

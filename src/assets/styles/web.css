@@ -87,7 +87,7 @@ p {
     text-align: right;
 }
 
-.baofeng {
+aside {
     margin-left: 1rem;
     padding: 1rem;
 }
@@ -106,4 +106,11 @@ p {
 
 .footnote {
     font-size: small;
+}
+
+.setting-expectations p img {
+    display: inline;
+    width: 50%;
+    float: right;
+    margin: 0.5rem;
 }

@@ -7,31 +7,6 @@
     border: .0325in solid #bdb8ad; /* 1/16th inch */
 }
 
-.unofficial {
-    position: relative;
-}
-
-.unofficial:before {
-    position: absolute;
-    content: "UNOFFICIAL";
-    font-size: 50pt;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) rotate(300deg);
-    color: rgba(220, 20, 60, 0.3);
-    z-index: 999;
-}
-
-.pagenum {
-    position: absolute;
-    bottom: .0325in; /* 1/16th inch */
-    right: .0325in; /* 1/16th inch */
-}
-
-.pagenum:after {
-    content: counter(page);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -77,7 +52,7 @@ h3 {
     right: .0325in; /* 1/16th inch */
 }
 
-.baofeng {
+aside {
     padding: .015625in; /* 1/64th inch */
     margin-left: .03125in; /* 1/32th inch */
 }
@@ -96,6 +71,42 @@ h3 {
 
 .simple {
     padding: .015625in; /* 1/64th inch */
+}
+
+.unofficial {
+    position: relative;
+}
+
+.unofficial:before {
+    position: absolute;
+    content: "UNOFFICIAL";
+    font-size: 50pt;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) rotate(300deg);
+    color: rgba(220, 20, 60, 0.3);
+    z-index: 999;
+}
+
+#basic-equipment {
+    max-width: 65%;
+    margin-left: .03125in; /* 1/32th inch */
+}
+
+/* Leave some room for the page number */
+.page {
+    padding-bottom: 0.1875in; /* 3/16 inch */
+}
+
+.pagenum {
+    line-height: 0;
+    position: absolute;
+    bottom: .0325in; /* 1/16th inch */
+    right: .0325in; /* 1/16th inch */
+}
+
+.pagenum:after {
+    content: counter(page);
 }
 
 @media print {

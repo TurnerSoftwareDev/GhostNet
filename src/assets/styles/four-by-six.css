@@ -13,10 +13,15 @@
     line-height: 1.0;
 }
 
-p {
+p,ul {
     font-family: Bahnschrift, sans-serif;
     font-size: 6.5pt;
     letter-spacing: -0.05em;
+}
+
+ul {
+    margin-left: .125in; /* 1/8th inch */
+    margin-right: .125in; /* 1/8th inch */
 }
 
 h1 {
@@ -54,14 +59,14 @@ aside {
 .page {
     height: 6in;
     position: relative;
-    padding: .0325in; /* 1/16th inch */
-    border: .0325in solid #bdb8ad; /* 1/16th inch */
+    padding: .03125in; /* 1/32nd inch */
+    border: .03125in solid #bdb8ad; /* 1/32nd inch */
 }
 
 .pagenum {
     position: absolute;
-    bottom: .0325in; /* 1/16th inch */
-    right: .0325in; /* 1/16th inch */
+    bottom: .03125in; /* 1/32nd inch */
+    right: .03125in; /* 1/32nd inch */
 }
 
 .pagenum:after {
@@ -70,12 +75,12 @@ aside {
 
 .version {
     position: absolute;
-    top: .0325in; /* 1/16th inch */
-    right: .0325in; /* 1/16th inch */
+    top: .03125in; /* 1/32nd inch */
+    right: .03125in; /* 1/32nd inch */
 }
 
 .footnote {
-    font-size: 4pt;
+    font-size: 5pt;
 }
 
 .unofficial {
@@ -111,6 +116,14 @@ aside {
 }
 
 .issues {
+    padding: .015625in; /* 1/64th inch */
+}
+
+#modular-privacy-img {
+    width: 85%;
+}
+
+.use-cases {
     padding: .015625in; /* 1/64th inch */
 }
 

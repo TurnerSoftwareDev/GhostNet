@@ -1,3 +1,9 @@
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .text-centered {
     text-align: center;
 }
@@ -60,4 +66,8 @@
 
 .issues {
     background-color: #fddfcd;
+}
+
+.use-cases {
+    background-color: #fef6db;
 }

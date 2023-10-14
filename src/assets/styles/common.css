@@ -32,6 +32,10 @@
     background-color: #fddfcd;
 }
 
+.middle-of-the-night {
+    background-color: #cce3f0;
+}
+
 .exchange-paths {
     display: flex;
     flex-direction: row;

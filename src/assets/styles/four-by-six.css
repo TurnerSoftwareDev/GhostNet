@@ -1,10 +1,10 @@
+@import url("reset.css");
 @import url("common.css");
 
 @page {
     size: 4in 6in;
     margin: 0;
-    padding: .0325in; /* 1/16th inch */
-    border: .0325in solid #bdb8ad; /* 1/16th inch */
+    padding: 0;
 }
 
 * {
@@ -16,7 +16,7 @@
 p {
     font-family: Bahnschrift, sans-serif;
     font-size: 6.5pt;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.05em;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 > .largechar {
     font-size: 18pt;
 }
 
-h2,h3,h4 {
+h2,h3 {
     font-family: Impact, serif;
     font-weight: lighter;
 }
@@ -42,8 +42,30 @@ h3 {
     font-size: 8pt;
 }
 
+aside {
+    padding: .015625in; /* 1/64th inch */
+    margin-left: .03125in; /* 1/32th inch */
+}
+
 .bordered {
     border-width: .015625in; /* 1/64th inch */
+}
+
+.page {
+    height: 6in;
+    position: relative;
+    padding: .0325in; /* 1/16th inch */
+    border: .0325in solid #bdb8ad; /* 1/16th inch */
+}
+
+.pagenum {
+    position: absolute;
+    bottom: .0325in; /* 1/16th inch */
+    right: .0325in; /* 1/16th inch */
+}
+
+.pagenum:after {
+    content: counter(page);
 }
 
 .version {
@@ -52,25 +74,8 @@ h3 {
     right: .0325in; /* 1/16th inch */
 }
 
-aside {
-    padding: .015625in; /* 1/64th inch */
-    margin-left: .03125in; /* 1/32th inch */
-}
-
-.exchange-paths {
-    column-gap: .03125in; /* 1/32th inch */
-}
-
-.exchange-paths > .exchange-path {
-    padding: .015625in; /* 1/64th inch */
-}
-
 .footnote {
     font-size: 4pt;
-}
-
-.simple {
-    padding: .015625in; /* 1/64th inch */
 }
 
 .unofficial {
@@ -88,25 +93,25 @@ aside {
     z-index: 999;
 }
 
+.exchange-paths {
+    column-gap: .03125in; /* 1/32th inch */
+}
+
+.exchange-paths > .exchange-path {
+    padding: .015625in; /* 1/64th inch */
+}
+
+.simple {
+    padding: .015625in; /* 1/64th inch */
+}
+
 #basic-equipment {
     max-width: 65%;
     margin-left: .03125in; /* 1/32th inch */
 }
 
-/* Leave some room for the page number */
-.page {
-    padding-bottom: 0.1875in; /* 3/16 inch */
-}
-
-.pagenum {
-    line-height: 0;
-    position: absolute;
-    bottom: .0325in; /* 1/16th inch */
-    right: .0325in; /* 1/16th inch */
-}
-
-.pagenum:after {
-    content: counter(page);
+.issues {
+    padding: .015625in; /* 1/64th inch */
 }
 
 @media print {

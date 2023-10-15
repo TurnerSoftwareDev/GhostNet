@@ -39,8 +39,19 @@ p {
     border-width: 2px;
 }
 
-.disclaimer {
+.padding-xs {
     padding: 0.5rem;
+}
+
+.padding-sm {
+    padding: 1rem;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 1rem;
+}
+
+.disclaimer {
     background-color: rgb(248, 215, 218);
     border: 1px solid #f1aeb5;
     border-radius: 0.375rem;
@@ -89,19 +100,10 @@ p {
 
 aside {
     margin-left: 1rem;
-    padding: 1rem;
 }
 
 .exchange-paths {
     column-gap: 10px;
-}
-
-.exchange-paths > .exchange-path {
-    padding: 1rem;
-}
-
-.simple {
-    padding: 1rem;
 }
 
 .footnote {
@@ -109,20 +111,7 @@ aside {
 }
 
 .setting-expectations p img {
-    display: inline;
-    width: 50%;
     float: right;
     margin: 0.5rem;
 }
 
-.issues {
-    padding: 1rem;
-}
-
-#modular-privacy-img {
-    padding: 1rem;
-}
-
-.use-cases {
-    padding: 1rem;
-}

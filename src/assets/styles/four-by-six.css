@@ -48,12 +48,19 @@ h3 {
 }
 
 aside {
-    padding: .015625in; /* 1/64th inch */
     margin-left: .03125in; /* 1/32th inch */
 }
 
 .bordered {
     border-width: .015625in; /* 1/64th inch */
+}
+
+.padding-sm {
+    padding: .015625in; /* 1/64th inch */
+}
+
+.margin-bottom-sm {
+    margin-bottom: .015625in; /* 1/64th inch */
 }
 
 .page {
@@ -102,29 +109,13 @@ aside {
     column-gap: .03125in; /* 1/32th inch */
 }
 
-.exchange-paths > .exchange-path {
-    padding: .015625in; /* 1/64th inch */
-}
-
-.simple {
-    padding: .015625in; /* 1/64th inch */
-}
-
 #basic-equipment {
     max-width: 65%;
     margin-left: .03125in; /* 1/32th inch */
 }
 
-.issues {
-    padding: .015625in; /* 1/64th inch */
-}
-
 #modular-privacy-img {
     width: 85%;
-}
-
-.use-cases {
-    padding: .015625in; /* 1/64th inch */
 }
 
 @media print {

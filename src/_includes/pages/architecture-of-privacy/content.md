@@ -31,7 +31,7 @@ disaster, only before....but most people still will not plan for this. So even i
 wants to create their own plan, GhostNet can temporarily serve as something, where nothing currently
 exists.
 
-<img class="centered" id="modular-privacy-img" src="../assets/images/modular-privacy.png" alt="Setting Expectations Venn Diagram"/>
+<img class="centered padding-sm" id="modular-privacy-img" src="../assets/images/modular-privacy.png" alt="Setting Expectations Venn Diagram"/>
 
 <p class="footnote">*Radio based communications can require a license, depending on the situation. For daily use in a non-permissive environment, a license would be
 required. However, in an apocalyptic-level emergency where users are no longer concerned with regulations, many radio modes can technically

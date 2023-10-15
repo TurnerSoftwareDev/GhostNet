@@ -30,28 +30,44 @@
     border-style: solid;
 }
 
-.bg-salmon {
+.bg-light-salmon {
     background-color: #fddfcd;
 }
 
-.bg-pink {
+.bg-light-pink {
     background-color: #f1d2d2;
 }
 
-.bg-blue {
+.bg-crimson {
+    background-color: #d81b60;
+}
+
+.bg-light-blue {
     background-color: #cce3f0;
 }
 
-.bg-yellow {
+.bg-blue {
+    background-color: #0072b2;
+}
+
+.bg-light-yellow {
     background-color: #fef6db;
 }
 
-.bg-green {
+.bg-yellow {
+    background-color: #fdd24b;
+}
+
+.bg-light-green {
     background-color: #d5e9d2;
 }
 
+.bg-green {
+    background-color: #27aa47;
+}
+
 .version {
-    color: crimson;
+    color: #d81b60;
 }
 
 .exchange-paths {

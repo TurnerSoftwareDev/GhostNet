@@ -186,6 +186,11 @@ aside {
     width: 1.0in;
 }
 
+/* Style the first column */
+#north-america-data-bridges-saturday tr:not(:first-child) td:first-child {
+    width: 1.5in;
+}
+
 @media print {
     .page {
         page-break-after: always;

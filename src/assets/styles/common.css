@@ -1,3 +1,9 @@
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .text-centered {
     text-align: center;
 }
@@ -14,6 +20,10 @@
     font-style: italic;
 }
 
+.text-vertical {
+    writing-mode: tb-rl;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -24,16 +34,48 @@
     border-style: solid;
 }
 
-.version {
-    color: crimson;
-}
-
-.baofeng {
+.bg-light-salmon {
     background-color: #fddfcd;
 }
 
-.middle-of-the-night {
+.bg-light-pink {
+    background-color: #f1d2d2;
+}
+
+.bg-crimson {
+    background-color: #d81b60;
+}
+
+.bg-light-blue {
     background-color: #cce3f0;
+}
+
+.bg-blue {
+    background-color: #0072b2;
+}
+
+.bg-light-yellow {
+    background-color: #fef6db;
+}
+
+.bg-yellow {
+    background-color: #fdd24b;
+}
+
+.bg-light-green {
+    background-color: #d5e9d2;
+}
+
+.bg-green {
+    background-color: #27aa47;
+}
+
+.rotate-90 {
+    transform: rotate(-90deg);
+}
+
+.version {
+    color: #d81b60;
 }
 
 .exchange-paths {
@@ -46,18 +88,8 @@
     text-align: center;
 }
 
-.exchange-paths > .forty-meter-networks {
-    background-color: #f1d2d2;
+.schedule th, td {
+    border-color: #000;
+    border-style: solid;
 }
 
-.exchange-paths > .data-bridges {
-    background-color: #cce3f0;
-}
-
-.simple {
-    background-color: #fddfcd;
-}
-
-.issues {
-    background-color: #fddfcd;
-}

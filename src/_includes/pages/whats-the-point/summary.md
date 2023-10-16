@@ -1,0 +1,1 @@
+<h3 class="text-centered">GhostNet is simply meant to help ensure communications. It’s not intended to replace anything, or override any pre-existing networks or plans. If you want to use it, Great! If not, that’s fine too. But it’s there for those that need a reliable plan, where nothing similar currently exists.</h3>

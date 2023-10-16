@@ -7,16 +7,25 @@
     padding: 0;
 }
 
+@page Landscape {
+    size: 6in 4in;
+}
+
 * {
     margin: 0;
     padding: 0;
     line-height: 1.0;
 }
 
-p {
+p,ul,table {
     font-family: Bahnschrift, sans-serif;
     font-size: 6.5pt;
     letter-spacing: -0.05em;
+}
+
+ul {
+    margin-left: .125in; /* 1/8th inch */
+    margin-right: .125in; /* 1/8th inch */
 }
 
 h1 {
@@ -43,7 +52,6 @@ h3 {
 }
 
 aside {
-    padding: .015625in; /* 1/64th inch */
     margin-left: .03125in; /* 1/32th inch */
 }
 
@@ -51,17 +59,31 @@ aside {
     border-width: .015625in; /* 1/64th inch */
 }
 
+.padding-sm {
+    padding: .015625in; /* 1/64th inch */
+}
+
+.margin-bottom-sm {
+    margin-bottom: .015625in; /* 1/64th inch */
+}
+
 .page {
     height: 6in;
     position: relative;
-    padding: .0325in; /* 1/16th inch */
-    border: .0325in solid #bdb8ad; /* 1/16th inch */
+    padding: .03125in; /* 1/32nd inch */
+    border: .03125in solid #bdb8ad; /* 1/32nd inch */
+}
+
+.page.landscape {
+    page: Landscape;
+    height: 4in;
+    width: 6in;
 }
 
 .pagenum {
     position: absolute;
-    bottom: .0325in; /* 1/16th inch */
-    right: .0325in; /* 1/16th inch */
+    bottom: .03125in; /* 1/32nd inch */
+    right: .03125in; /* 1/32nd inch */
 }
 
 .pagenum:after {
@@ -70,12 +92,12 @@ aside {
 
 .version {
     position: absolute;
-    top: .0325in; /* 1/16th inch */
-    right: .0325in; /* 1/16th inch */
+    top: .03125in; /* 1/32nd inch */
+    right: .03125in; /* 1/32nd inch */
 }
 
 .footnote {
-    font-size: 4pt;
+    font-size: 5pt;
 }
 
 .unofficial {
@@ -88,21 +110,17 @@ aside {
     font-size: 50pt;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) rotate(300deg);
+    transform: translateX(-50%) rotate(-60deg);
     color: rgba(220, 20, 60, 0.3);
     z-index: 999;
 }
 
-.exchange-paths {
+.unofficial.landscape:before {
+    transform: translateX(-50%) rotate(60deg);
+}
+
+.column-gap-md {
     column-gap: .03125in; /* 1/32th inch */
-}
-
-.exchange-paths > .exchange-path {
-    padding: .015625in; /* 1/64th inch */
-}
-
-.simple {
-    padding: .015625in; /* 1/64th inch */
 }
 
 #basic-equipment {
@@ -110,12 +128,45 @@ aside {
     margin-left: .03125in; /* 1/32th inch */
 }
 
-.issues {
-    padding: .015625in; /* 1/64th inch */
+#modular-privacy-img {
+    width: 85%;
+}
+
+.schedule {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .03125in; /* 1/32th inch */
+}
+
+.schedule th, td {
+    border-width: .015625in; /* 1/64th inch */
+}
+
+/* Height of the first row */
+.schedule thead {
+    height: 0.33in;
+}
+
+/* Height of the other rows */
+.schedule tbody tr {
+    height: 0.25in;
+}
+
+/* Width of the first column */
+.schedule td:first-child,th:first-child {
+    min-width: 1.25in;
+}
+
+/* Width of the other columns */
+.schedule td:not(:first-child),th:not(:first-child) {
+    max-width: 0.19in;
 }
 
 @media print {
     .page {
+        page-break-after: always;
+    }
+    .page.landscape {
         page-break-after: always;
     }
 }

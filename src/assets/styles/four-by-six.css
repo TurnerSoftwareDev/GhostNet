@@ -67,6 +67,10 @@ aside {
     margin-bottom: .015625in; /* 1/64th inch */
 }
 
+.margin-bottom-md {
+    margin-bottom: .03125in; /* 1/32nd inch */
+}
+
 .page {
     height: 6in;
     position: relative;
@@ -160,6 +164,26 @@ aside {
 /* Width of the other columns */
 .schedule td:not(:first-child),th:not(:first-child) {
     max-width: 0.19in;
+}
+
+.logo-title img {
+    height: auto;
+    max-width: 0.6in;
+}
+
+/* Style text along the left side (time zone description) */
+#gn-north-america-content p:first-child {
+    flex-basis: 0.15in;
+}
+
+/* Style UTC times in the first column */
+#gn-north-america-content tr td:first-child {
+    width: 0.15in;
+}
+
+/* Style the "all times gmt" column */
+#gn-north-america-content tr:not(:first-child) td:nth-child(2) {
+    width: 1.0in;
 }
 
 @media print {

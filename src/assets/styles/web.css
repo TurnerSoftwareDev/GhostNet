@@ -26,6 +26,10 @@ p {
     margin-bottom: 0.5rem;
 }
 
+aside {
+    margin-left: 1rem;
+}
+
 .icon {
     display: inline;
     vertical-align: middle;
@@ -49,6 +53,10 @@ p {
 
 .margin-bottom-sm {
     margin-bottom: 1rem;
+}
+
+.margin-bottom-md {
+    margin-bottom: 1.2rem;
 }
 
 .disclaimer {
@@ -98,10 +106,6 @@ p {
     text-align: right;
 }
 
-aside {
-    margin-left: 1rem;
-}
-
 .column-gap-md {
     column-gap: 10px;
 }
@@ -134,4 +138,20 @@ aside {
 .schedule td:not(:first-child) {
     width: 2rem;
     height: 2rem;
+}
+
+/* Style text along the left side (time zone description) */
+#gn-north-america-content p:first-child {
+    padding: 1rem;
+    flex-basis: 5rem;
+}
+
+/* Style UTC times in the first column */
+#gn-north-america-content tr td:first-child {
+    width: 2.5rem;
+}
+
+/* Style the "all times gmt" column */
+#gn-north-america-content tr:not(:first-child) td:nth-child(2) {
+    width: 10rem;
 }

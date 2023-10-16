@@ -1,0 +1,101 @@
+<div id="gn-north-america-content" class="row" xmlns="http://www.w3.org/1999/html">
+    <p class="text-vertical">Due to Time Zones, these times are technically the next day (Friday). Locally to North America, this comm window is Thursday Night.</p>
+
+    <table class="text-centered">
+        <tr>
+            <td class="borderless"></td>
+            <td colspan="2" class="bg-light-blue"><h2>Weekly Every Thursday Night</h2></td>
+        </tr>
+        <tr>
+            <td class="borderless"></td>
+            <td class="padding-sm"><h3>All Times GMT</h3></td>
+            <td><h3>Details</h3></td>
+        </tr>
+        <tr>
+            <td class="text-vertical borderless"><h3>0100-0130 UTC</h3></td>
+            <td class="bg-light-green padding-sm">
+                <h3 class="padding-xs">JS8Call (40m)</h3>
+                <h3 class="padding-xs">NVIS</h3>
+                <h3 class="padding-xs">7.107 MHz</h3>
+                <p>Use Offsets to find a clear space to transmit. All messages along
+                    the band will be decoded anyway, so pick any offset that’s available.</p>
+            </td>
+            <td class="bg-light-green padding-sm text-left">
+                <p class="text-uppercase text-bold">NOTE: NOT STANDARD JS8 CONFIG, YOU MUST CHANGE THE FREQ!</p>
+                <p>Offset chosen based on availability. For standard message traffic,
+                    check-ins and POSREPs. Heartbeats sent below offset of 1000 Hz.
+                    If many stations are present, JS8 can be used to allocate freqs for
+                    further comms. Groups shall be used to organize traffic and all
+                    stations shall monitor at minimum @GHOSTNET and
+                    @GSTFLASH. See below for complete list of Group Names.</p>
+                <div class="bordered padding-sm bg-light-gray">
+                    <p><span class="text-bold">@GHOSTNET -</span> Generalized group for tagging routine messages.
+                Also very useful for identifying callsigns not previously known.</p>
+
+                    <p><span class="text-bold">@GN(Country Three Letter Code)(State Two-Letter Code) -</span> For
+                    example: “@GNUSASC” is the GhostNet group for South Carolina,
+                    USA. For regional comms directed to a specific state. State-level
+                    organizations may choose to further divide into districts within a
+                        state or other geographic area.</p>
+
+                <p><span class="text-bold">@GSTFLASH -</span> Emergency FLASH traffic: Any station in receipt of
+                    a GSTFLASH message shall transmit at once to highest level HQ
+                        within range via any means necessary.</p>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-vertical borderless"><h3>0130-0200 UTC</h3></td>
+            <td class="bg-light-yellow padding-sm">
+                <h3 class="padding-xs">Winlink P2P</h3>
+                <h3 class="padding-xs">(Vara, USB)</h3>
+                <h3 class="padding-xs">NVIS</h3>
+                <h3 class="padding-xs">7.107 MHz</h3>
+            </td>
+            <td class="bg-light-yellow padding-sm">Stations wishing to exchange emails may do so during this comm
+                window. Use Vara HF Peer-to-Peer Connection with
+                designated callsigns to avoid linking with formal Winlink nodes.
+                Handshakes start at 0135Z, data burst as long as it takes. Use the
+                JS8Call window to determine callsigns, and the order of stations
+                sending emails. Emails should be posted to outbox BEFORE comm
+                window to maximize efficiency.</td>
+        </tr>
+        <tr>
+            <td class="text-vertical borderless"><h3>0200-0230 UTC</h3></td>
+            <td class="bg-light-salmon padding-sm">
+                <h3 class="padding-xs">RTTY</h3>
+                <h3 class="padding-xs">7.077 MHz</h3>
+            </td>
+            <td class="bg-light-salmon padding-sm">Use short RTTY bursts to transmit blindly to stations that missed
+                check-in. Stations missing windows are to use RTTY presets on
+                radio to communicate problem.
+                If contact is re-acquired, can re-send critical msg traffic that was
+                missed earlier. If so desired, RTTY can also be used to send traffic
+                to SWL-only stations during this window.</td>
+        </tr>
+        <tr>
+            <td class="text-vertical borderless"><h3>0230-0300 UTC</h3></td>
+            <td class="bg-light-pink padding-sm">
+                <h3 class="padding-xs">HF Voice</h3>
+                <h3 class="padding-xs">Simplex LSB</h3>
+                <h3 class="padding-xs">(40m)</h3>
+                <h3 class="padding-xs">7.190 MHz</h3>
+            </td>
+            <td class="bg-light-pink padding-sm">
+                <p class="text-bold text-uppercase">ONLY FOR USE IN A DIRE EMERGENCY, NOT A STANDARD NET</p>
+                <p>HF voice freq shall be monitored for the last five minutes of all
+                comm windows, no matter how the window flexes. If a station
+                misses all prior check-ins, stations with highest likelihood of
+                comm success will initiate voice calls for missing station as
+                required. If station is expected to participate in the net, but is still
+                    not heard, proceed with Emergency PACE plan.</p>
+            </td>
+        </tr>
+        <tr class="text-left">
+            <td class="borderless"></td>
+            <td colspan="2" class="borderless">Though set up to be a weekly event, during contingent circumstances
+                this plan can be used for battle tracking incidents as needed.</td>
+        </tr>
+    </table>
+</div>

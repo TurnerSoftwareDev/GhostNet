@@ -5,8 +5,7 @@ layout: layouts/paged.njk
 <article>
     <section class="page unofficial">
         <p class="version">Version 1.2</p>
-        <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span
-                class="largechar">O</span>verview</h1>
+        {%- include "pages/overview/title.html" -%}
         <section>{% markdown %}{%- include "pages/overview/intro.md" -%}{% endmarkdown %}</section>
         <section>{% markdown %}{%- include 'pages/overview/weekly-js8call.md' -%}{% endmarkdown %}</section>
         <div class="row">
@@ -20,8 +19,7 @@ layout: layouts/paged.njk
     </section>
 
     <section class="page unofficial">
-        <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span
-                class="largechar">C</span>oncept</h1>
+        {%- include "pages/concept/title.html" -%}
         <section>{% markdown %}{%- include 'pages/concept/intro.md' -%}{% endmarkdown %}</section>
         <section>{%- include 'pages/concept/info-exchange-paths.html' -%}</section>
         <section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include 'pages/concept/simple.md' -%}{% endmarkdown %}
@@ -31,7 +29,7 @@ layout: layouts/paged.njk
     </section>
 
     <section class="page unofficial">
-        <h1 class="text-uppercase"><span class="largechar">E</span>mergency <span class="largechar">C</span>2<span class="largechar"> N</span>odes</h1>
+        {%- include "pages/emergency-c2-nodes/title.html" -%}
         <section>{% markdown %}{%- include "pages/emergency-c2-nodes/intro.md" -%}{% endmarkdown %}</section>
         <section>{% markdown %}{%- include "pages/emergency-c2-nodes/comms-priority.md" -%}{% endmarkdown %}</section>
         <div class="row">
@@ -45,7 +43,7 @@ layout: layouts/paged.njk
     </section>
 
     <section class="page unofficial">
-        <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span class="largechar">S</span>urvivability</h1>
+        {%- include "pages/survivability/title.html" -%}
         <section>{% markdown %}{%- include "pages/survivability/intro.md" -%}{% endmarkdown %}</section>
         <section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include "pages/survivability/issues.md" -%}{% endmarkdown %}</section>
         <section>{% markdown %}{%- include "pages/survivability/plan-comes-together.md" -%}{% endmarkdown %}</section>
@@ -53,13 +51,13 @@ layout: layouts/paged.njk
     </section>
 
     <section class="page unofficial">
-        <h1 class="text-uppercase"><span class="largechar">A</span>rchitecture <span class="largechar">O</span>f <span class="largechar">P</span>rivacy</h1>
+        {%- include "pages/architecture-of-privacy/title.html" -%}
         <section>{% markdown %}{%- include "pages/architecture-of-privacy/content.md" -%}{% endmarkdown %}</section>
         <p class="pagenum"></p>
     </section>
 
     <section class="page unofficial">
-        <h1 class="text-uppercase"><span class="largechar">&ldquo;W</span>hat<span class="largechar">'</span>s <span class="largechar">T</span>he <span class="largechar">P</span>oint?<span class="largechar">&rdquo;</span></h1>
+        {%- include "pages/whats-the-point/title.html" -%}
         <section>{% markdown %}{%- include "pages/whats-the-point/reasons.md" -%}{% endmarkdown %}</section>
         <section class="bg-light-yellow bordered padding-sm">{% markdown %}{%- include "pages/whats-the-point/use-cases.md" -%}{% endmarkdown %}</section>
         <section>{% markdown %}{%- include "pages/whats-the-point/summary.md" -%}{% endmarkdown %}</section>
@@ -67,19 +65,25 @@ layout: layouts/paged.njk
     </section>
 
     <section class="page unofficial">
-        <h1 class="text-uppercase"><span class="largechar">D</span>ata <span class="largechar">B</span>ridge <span class="largechar">O</span>verview</h1>
+        {%- include "pages/data-bridge-overview/title.html" -%}
         <section>{% markdown %}{%- include "pages/data-bridge-overview/content.html" -%}{% endmarkdown %}</section>
         <p class="pagenum"></p>
     </section>
 
     <section class="page landscape unofficial">
-        <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span class="largechar">S</span>chedule <span class="largechar">A</span>t-<span class="largechar">A</span>-<span class="largechar">G</span>lance</h1>
+        {%- include "pages/schedule-at-a-glance/title.html" -%}
         <section>{%- include "pages/schedule-at-a-glance/thursday.html" -%}</section>
         <section>{%- include "pages/schedule-at-a-glance/saturday.html" -%}</section>
         <div class="row column-gap-md">
             <section class="bg-light-blue bordered padding-sm">{% markdown %}{%- include 'pages/schedule-at-a-glance/ad-hoc-crisis-nets.md' -%}{% endmarkdown %}</section>
             <section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include 'pages/schedule-at-a-glance/persistent-comms-networks.md' -%}{% endmarkdown %}</section>
         </div>
+        <p class="pagenum"></p>
+    </section>
+
+    <section class="page unofficial">
+        {%- include "pages/ghostnet-north-america/title.html" -%}
+        <section>{%- include "pages/ghostnet-north-america/content.html" -%}</section>
         <p class="pagenum"></p>
     </section>
 </article>

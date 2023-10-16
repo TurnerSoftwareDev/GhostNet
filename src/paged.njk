@@ -71,4 +71,15 @@ layout: layouts/paged.njk
         <section>{% markdown %}{%- include "pages/data-bridge-overview/content.html" -%}{% endmarkdown %}</section>
         <p class="pagenum"></p>
     </section>
+
+    <section class="page landscape unofficial">
+        <h1 class="text-uppercase"><span class="largechar">G</span>host<span class="largechar">N</span>et <span class="largechar">S</span>chedule <span class="largechar">A</span>t-<span class="largechar">A</span>-<span class="largechar">G</span>lance</h1>
+        <section>{%- include "pages/schedule-at-a-glance/thursday.html" -%}</section>
+        <section>{%- include "pages/schedule-at-a-glance/saturday.html" -%}</section>
+        <div class="row column-gap-md">
+            <section class="bg-light-blue bordered padding-sm">{% markdown %}{%- include 'pages/schedule-at-a-glance/ad-hoc-crisis-nets.md' -%}{% endmarkdown %}</section>
+            <section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include 'pages/schedule-at-a-glance/persistent-comms-networks.md' -%}{% endmarkdown %}</section>
+        </div>
+        <p class="pagenum"></p>
+    </section>
 </article>

@@ -8,7 +8,7 @@
     "watch:eleventy": "eleventy --serve",
 
     "pdf": "npm-run-all --parallel pdf:*",
-    "pdf:fourxsix": "cd ./_site/paged && vivliostyle build ./index.html --size 4in,6in --style ../assets/styles/four-by-six.css --output ../../src/assets/pdfs/ghostnet-4x6.pdf",
+    "pdf:fourxsix": "cd ./_site/paged && vivliostyle build ./index.html --log-level verbose --size 4in,6in --style ../assets/styles/four-by-six.css --output ../../src/assets/pdfs/ghostnet-4x6.pdf",
 
     "start": "npm-run-all --parallel watch:*",
     "prestart": "npm run clean",

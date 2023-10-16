@@ -102,7 +102,7 @@ aside {
     margin-left: 1rem;
 }
 
-.exchange-paths {
+.column-gap-md {
     column-gap: 10px;
 }
 
@@ -115,3 +115,23 @@ aside {
     margin: 0.5rem;
 }
 
+.schedule {
+    width: 100%;
+}
+
+.schedule th, td {
+    border-width: 2px;
+}
+
+.schedule thead {
+    height: 3.5rem;
+}
+
+.schedule td:first-child,th:first-child {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.schedule td:not(:first-child) {
+    width: 2rem;
+    height: 2rem;
+}

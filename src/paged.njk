@@ -3,7 +3,7 @@ layout: layouts/paged.njk
 ---
 
 <article>
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         <p class="version">Version 1.2</p>
         {%- include "pages/ghostnet-overview/title.html" -%}
         <section>{% markdown %}{%- include "pages/ghostnet-overview/intro.md" -%}{% endmarkdown %}</section>
@@ -18,7 +18,7 @@ layout: layouts/paged.njk
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/ghostnet-concept/title.html" -%}
         <section>{% markdown %}{%- include 'pages/ghostnet-concept/intro.md' -%}{% endmarkdown %}</section>
         <section>{%- include 'pages/ghostnet-concept/info-exchange-paths.html' -%}</section>
@@ -28,7 +28,7 @@ layout: layouts/paged.njk
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/emergency-c2-nodes/title.html" -%}
         <section>{% markdown %}{%- include "pages/emergency-c2-nodes/intro.md" -%}{% endmarkdown %}</section>
         <section>{% markdown %}{%- include "pages/emergency-c2-nodes/comms-priority.md" -%}{% endmarkdown %}</section>
@@ -42,7 +42,7 @@ layout: layouts/paged.njk
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/ghostnet-survivability/title.html" -%}
         <section>{% markdown %}{%- include "pages/ghostnet-survivability/intro.md" -%}{% endmarkdown %}</section>
         <section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include "pages/ghostnet-survivability/issues.md" -%}{% endmarkdown %}</section>
@@ -50,13 +50,13 @@ layout: layouts/paged.njk
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/architecture-of-privacy/title.html" -%}
         <section>{% markdown %}{%- include "pages/architecture-of-privacy/content.md" -%}{% endmarkdown %}</section>
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/whats-the-point/title.html" -%}
         <section>{% markdown %}{%- include "pages/whats-the-point/reasons.md" -%}{% endmarkdown %}</section>
         <section class="bg-light-yellow bordered padding-sm">{% markdown %}{%- include "pages/whats-the-point/use-cases.md" -%}{% endmarkdown %}</section>
@@ -64,13 +64,13 @@ layout: layouts/paged.njk
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/data-bridge-overview/title.html" -%}
         <section>{% markdown %}{%- include "pages/data-bridge-overview/content.html" -%}{% endmarkdown %}</section>
         <p class="pagenum"></p>
     </section>
 
-    <section class="page landscape unofficial">
+    <section class="page landscape stamped unofficial">
         {%- include "pages/ghostnet-schedule-at-a-glance/title.html" -%}
         <section>{%- include "pages/ghostnet-schedule-at-a-glance/thursday.html" -%}</section>
         <section>{%- include "pages/ghostnet-schedule-at-a-glance/saturday.html" -%}</section>
@@ -81,13 +81,13 @@ layout: layouts/paged.njk
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/ghostnet-north-america/title.html" -%}
         <section>{%- include "pages/ghostnet-north-america/content.html" -%}</section>
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/north-america-data-bridges/title.html" -%}
         <section>{% markdown %}{%- include "pages/north-america-data-bridges/intro.md" -%}{% endmarkdown %}</section>
         <section>{%- include "pages/north-america-data-bridges/saturday.html" -%}</section>
@@ -95,17 +95,31 @@ layout: layouts/paged.njk
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/ghostnet-europe/title.html" -%}
         <section>{%- include "pages/ghostnet-europe/content.html" -%}</section>
         <p class="pagenum"></p>
     </section>
 
-    <section class="page unofficial">
+    <section class="page stamped unofficial">
         {%- include "pages/europe-data-bridges/title.html" -%}
         <section>{% markdown %}{%- include "pages/europe-data-bridges/intro.md" -%}{% endmarkdown %}</section>
         <section>{%- include "pages/europe-data-bridges/saturday.html" -%}</section>
         <section>{% markdown %}{%- include "pages/europe-data-bridges/bottom.md" -%}{% endmarkdown %}</section>
+        <p class="pagenum"></p>
+    </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/ghostnet-australia/title.html" -%}
+        <section>{%- include "pages/ghostnet-australia/content.html" -%}</section>
+        <p class="pagenum"></p>
+    </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/australia-data-bridges/title.html" -%}
+        <section>{% markdown %}{%- include "pages/australia-data-bridges/intro.md" -%}{% endmarkdown %}</section>
+        <section>{%- include "pages/australia-data-bridges/saturday.html" -%}</section>
+        <section>{% markdown %}{%- include "pages/australia-data-bridges/bottom.md" -%}{% endmarkdown %}</section>
         <p class="pagenum"></p>
     </section>
 </article>

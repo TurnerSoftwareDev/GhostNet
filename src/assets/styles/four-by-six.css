@@ -172,22 +172,22 @@ aside {
 }
 
 /* Style text along the left side (time zone description) */
-#gn-north-america-content p:first-child {
+.ghostnet-times > p:first-child {
     flex-basis: 0.15in;
 }
 
 /* Style UTC times in the first column */
-#gn-north-america-content tr td:first-child {
+.ghostnet-times tr td:first-child {
     width: 0.15in;
 }
 
 /* Style the "all times gmt" column */
-#gn-north-america-content tr:not(:first-child) td:nth-child(2) {
+.ghostnet-times tr:not(:first-child) td:nth-child(2) {
     width: 1.0in;
 }
 
 /* Style the first column */
-#north-america-data-bridges-saturday tr:not(:first-child) td:first-child {
+.data-bridges tr:not(:first-child) td:first-child {
     width: 1.5in;
 }
 

@@ -9,7 +9,7 @@
 
 <br />
 
-# The Unofficial GhostNet Documentation Project
+<h1 style="text-align: center;">The Unofficial GhostNet Documentation Project</h1>
 
 <p align="center">
     Generates a website of GhostNet information.

@@ -14,12 +14,13 @@
 * {
     margin: 0;
     padding: 0;
-    line-height: 1.0;
+    line-height: 1.03;
 }
 
 p,ul,table {
     font-family: Bahnschrift, sans-serif;
     font-size: 6.5pt;
+    font-weight: lighter;
     letter-spacing: -0.05em;
 }
 
@@ -104,23 +105,25 @@ aside {
     font-size: 5pt;
 }
 
-.unofficial {
+.stamped {
     position: relative;
 }
 
-.unofficial:before {
+.stamped:before {
     position: absolute;
-    content: "UNOFFICIAL";
-    font-size: 50pt;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) rotate(-60deg);
+    font-size: 60pt;
+    top: 45%;
+    transform: translateX(-7%) rotate(-60deg);
     color: rgba(220, 20, 60, 0.3);
     z-index: 999;
 }
 
-.unofficial.landscape:before {
-    transform: translateX(-50%) rotate(60deg);
+.stamped.landscape:before {
+    transform: translateX(10%) rotate(30deg);
+}
+
+.unofficial:before {
+    content: "UNOFFICIAL";
 }
 
 .column-gap-md {
@@ -128,7 +131,7 @@ aside {
 }
 
 #basic-equipment {
-    max-width: 65%;
+    max-width: 60%;
     margin-left: .03125in; /* 1/32th inch */
 }
 
@@ -148,7 +151,7 @@ aside {
 
 /* Height of the first row */
 .schedule thead {
-    height: 0.33in;
+    height: 0.31in;
 }
 
 /* Height of the other rows */
@@ -163,7 +166,7 @@ aside {
 
 /* Width of the other columns */
 .schedule td:not(:first-child),th:not(:first-child) {
-    max-width: 0.19in;
+    max-width: 0.1922in;
 }
 
 .logo-title img {
@@ -172,18 +175,23 @@ aside {
 }
 
 /* Style text along the left side (time zone description) */
-#gn-north-america-content p:first-child {
+.ghostnet-times > p:first-child {
     flex-basis: 0.15in;
 }
 
 /* Style UTC times in the first column */
-#gn-north-america-content tr td:first-child {
+.ghostnet-times tr td:first-child {
     width: 0.15in;
 }
 
 /* Style the "all times gmt" column */
-#gn-north-america-content tr:not(:first-child) td:nth-child(2) {
+.ghostnet-times tr:not(:first-child) td:nth-child(2) {
     width: 1.0in;
+}
+
+/* Style the first column */
+.data-bridges tr:not(:first-child) td:first-child {
+    width: 1.5in;
 }
 
 @media print {

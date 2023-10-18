@@ -28,21 +28,21 @@ layout: layouts/web.njk
     </ul>
 </div>
 
-{%- include "pages/overview/title.html" -%}
-<section>{% markdown %}{%- include "pages/overview/intro.md" -%}{% endmarkdown %}</section>
-<section>{% markdown %}{%- include 'pages/overview/weekly-js8call.md' -%}{% endmarkdown %}</section>
+{%- include "pages/ghostnet-overview/title.html" -%}
+<section>{% markdown %}{%- include "pages/ghostnet-overview/intro.md" -%}{% endmarkdown %}</section>
+<section>{% markdown %}{%- include 'pages/ghostnet-overview/weekly-js8call.md' -%}{% endmarkdown %}</section>
 <div class="row">
-    <section>{% markdown %}{%- include 'pages/overview/data-bridges.md' -%}{% endmarkdown %}</section>
-    <aside class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include 'pages/overview/baofeng.md' -%}{% endmarkdown %}</aside>
+    <section>{% markdown %}{%- include 'pages/ghostnet-overview/data-bridges.md' -%}{% endmarkdown %}</section>
+    <aside class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include 'pages/ghostnet-overview/baofeng.md' -%}{% endmarkdown %}</aside>
 </div>
-<section>{% markdown %}{%- include 'pages/overview/receive-only.md' -%}{% endmarkdown %}</section>
-<section>{% markdown %}{%- include 'pages/overview/ion2g-ale-networks.md' -%}{% endmarkdown %}</section>
+<section>{% markdown %}{%- include 'pages/ghostnet-overview/receive-only.md' -%}{% endmarkdown %}</section>
+<section>{% markdown %}{%- include 'pages/ghostnet-overview/ion2g-ale-networks.md' -%}{% endmarkdown %}</section>
 
-{%- include "pages/concept/title.html" -%}
-<section>{% markdown %}{%- include 'pages/concept/intro.md' -%}{% endmarkdown %}</section>
-<section>{%- include 'pages/concept/info-exchange-paths.html' -%}</section>
-<section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include 'pages/concept/simple.md' -%}{% endmarkdown %}</section>
-<section>{% markdown %}{%- include 'pages/concept/ale.md' -%}{% endmarkdown %}</section>
+{%- include "pages/ghostnet-concept/title.html" -%}
+<section>{% markdown %}{%- include 'pages/ghostnet-concept/intro.md' -%}{% endmarkdown %}</section>
+<section>{%- include 'pages/ghostnet-concept/info-exchange-paths.html' -%}</section>
+<section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include 'pages/ghostnet-concept/simple.md' -%}{% endmarkdown %}</section>
+<section>{% markdown %}{%- include 'pages/ghostnet-concept/ale.md' -%}{% endmarkdown %}</section>
 
 {%- include "pages/emergency-c2-nodes/title.html" -%}
 <section>{% markdown %}{%- include "pages/emergency-c2-nodes/intro.md" -%}{% endmarkdown %}</section>
@@ -53,10 +53,10 @@ layout: layouts/web.njk
 </div>
 <section class="setting-expectations">{%- include "pages/emergency-c2-nodes/setting-expectations.html" -%}</section>
 
-{%- include "pages/survivability/title.html" -%}
-<section>{% markdown %}{%- include "pages/survivability/intro.md" -%}{% endmarkdown %}</section>
-<section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include "pages/survivability/issues.md" -%}{% endmarkdown %}</section>
-<section>{% markdown %}{%- include "pages/survivability/plan-comes-together.md" -%}{% endmarkdown %}</section>
+{%- include "pages/ghostnet-survivability/title.html" -%}
+<section>{% markdown %}{%- include "pages/ghostnet-survivability/intro.md" -%}{% endmarkdown %}</section>
+<section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include "pages/ghostnet-survivability/issues.md" -%}{% endmarkdown %}</section>
+<section>{% markdown %}{%- include "pages/ghostnet-survivability/plan-comes-together.md" -%}{% endmarkdown %}</section>
 
 {%- include "pages/architecture-of-privacy/title.html" -%}
 <section>{% markdown %}{%- include "pages/architecture-of-privacy/content.md" -%}{% endmarkdown %}</section>
@@ -69,13 +69,34 @@ layout: layouts/web.njk
 {%- include "pages/data-bridge-overview/title.html" -%}
 <section>{% markdown %}{%- include "pages/data-bridge-overview/content.html" -%}{% endmarkdown %}</section>
 
-{%- include "pages/schedule-at-a-glance/title.html" -%}
-<section>{%- include "pages/schedule-at-a-glance/thursday.html" -%}</section>
-<section>{%- include "pages/schedule-at-a-glance/saturday.html" -%}</section>
+{%- include "pages/ghostnet-schedule-at-a-glance/title.html" -%}
+<section>{%- include "pages/ghostnet-schedule-at-a-glance/thursday.html" -%}</section>
+<section>{%- include "pages/ghostnet-schedule-at-a-glance/saturday.html" -%}</section>
 <div class="row column-gap-md">
-    <section class="bg-light-blue bordered padding-sm">{% markdown %}{%- include 'pages/schedule-at-a-glance/ad-hoc-crisis-nets.md' -%}{% endmarkdown %}</section>
-    <section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include 'pages/schedule-at-a-glance/persistent-comms-networks.md' -%}{% endmarkdown %}</section>
+    <section class="bg-light-blue bordered padding-sm">{% markdown %}{%- include 'pages/ghostnet-schedule-at-a-glance/ad-hoc-crisis-nets.md' -%}{% endmarkdown %}</section>
+    <section class="bg-light-salmon bordered padding-sm">{% markdown %}{%- include 'pages/ghostnet-schedule-at-a-glance/persistent-comms-networks.md' -%}{% endmarkdown %}</section>
 </div>
 
 {%- include "pages/ghostnet-north-america/title.html" -%}
 <section>{%- include "pages/ghostnet-north-america/content.html" -%}</section>
+
+{%- include "pages/north-america-data-bridges/title.html" -%}
+<section>{% markdown %}{%- include "pages/north-america-data-bridges/intro.md" -%}{% endmarkdown %}</section>
+<section>{%- include "pages/north-america-data-bridges/saturday.html" -%}</section>
+<section>{% markdown %}{%- include "pages/north-america-data-bridges/bottom.md" -%}{% endmarkdown %}</section>
+
+{%- include "pages/ghostnet-europe/title.html" -%}
+<section>{%- include "pages/ghostnet-europe/content.html" -%}</section>
+
+{%- include "pages/europe-data-bridges/title.html" -%}
+<section>{% markdown %}{%- include "pages/europe-data-bridges/intro.md" -%}{% endmarkdown %}</section>
+<section>{%- include "pages/europe-data-bridges/saturday.html" -%}</section>
+<section>{% markdown %}{%- include "pages/europe-data-bridges/bottom.md" -%}{% endmarkdown %}</section>
+
+{%- include "pages/ghostnet-australia/title.html" -%}
+<section>{%- include "pages/ghostnet-australia/content.html" -%}</section>
+
+{%- include "pages/australia-data-bridges/title.html" -%}
+<section>{% markdown %}{%- include "pages/australia-data-bridges/intro.md" -%}{% endmarkdown %}</section>
+<section>{%- include "pages/australia-data-bridges/saturday.html" -%}</section>
+<section>{% markdown %}{%- include "pages/australia-data-bridges/bottom.md" -%}{% endmarkdown %}</section>

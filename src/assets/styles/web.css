@@ -141,17 +141,17 @@ aside {
 }
 
 /* Style text along the left side (time zone description) */
-#gn-north-america-content p:first-child {
+.ghostnet-times > p:first-child {
     padding: 1rem;
     flex-basis: 5rem;
 }
 
 /* Style UTC times in the first column */
-#gn-north-america-content tr td:first-child {
+.ghostnet-times tr td:first-child {
     width: 2.5rem;
 }
 
 /* Style the "all times gmt" column */
-#gn-north-america-content tr:not(:first-child) td:nth-child(2) {
+.ghostnet-times tr:not(:first-child) td:nth-child(2) {
     width: 10rem;
 }

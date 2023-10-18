@@ -30,6 +30,10 @@ aside {
     margin-left: 1rem;
 }
 
+img {
+    padding: 0 1rem 0 1rem;
+}
+
 .icon {
     display: inline;
     vertical-align: middle;

@@ -17,16 +17,19 @@
     line-height: 1.03;
 }
 
-p,ul,table {
+p,ul,ol,table,div {
     font-family: Bahnschrift, sans-serif;
     font-size: 6.5pt;
     font-weight: lighter;
     letter-spacing: -0.05em;
 }
 
-ul {
+img {
+    padding: 0 .125in 0 0.125in; /* 1/8th inch */
+}
+
+li {
     margin-left: .125in; /* 1/8th inch */
-    margin-right: .125in; /* 1/8th inch */
 }
 
 h1 {

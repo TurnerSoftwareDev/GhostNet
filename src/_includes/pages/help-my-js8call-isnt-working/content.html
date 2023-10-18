@@ -1,0 +1,53 @@
+<h2>SDR Functioning?</h2>
+
+<ol class="margin-bottom-md">
+    <li>Check to see if your SDR is plugged in.</li>
+    <li>If using a WebSDR, check that you have clicked the button to “start audio” within the web browser.</li>
+</ol>
+
+<div class="row">
+    <div>
+        <h2>Check Audio Cables and Settings</h2>
+        <ol>
+            <li>If using Virtual Audio Cables, check to make sure
+                that VBCable is selected as the output device.</li>
+            <li>If using a physical USB SDR, check that your
+                antenna connection has not become unscrewed, either
+                at the SDR itself or the antenna.</li>
+        </ol>
+    </div>
+    <div>
+        <p>If using VBCable, your sound bar should look like this</p>
+        <img src="../assets/images/vbcable-sound-bar.jpg" alt="VBCable sound bar" />
+    </div>
+</div>
+
+<h2>Check Time Sync</h2>
+
+<p class="margin-bottom-md">1 - Make sure you have run BKTTimeSync, and that a connection to an appropriate server/GPS has been
+    made. Without super-accurate time, JS8Call will not decode messages as depicted below:</p>
+
+<div class="row">
+    <div>
+        <img src="../assets/images/waterfall.png" alt="Waterfall" />
+    </div>
+    <div>
+        <p class="margin-bottom-md">If messages are between the green lines
+            on the waterfall, they will be decoded. If
+            not, either your or the transmitting station’s
+            time sync is off and no messages will be
+            decoded.</p>
+
+        <p>This is what a proper time sync should look
+            like, all messages within the green.</p>
+    </div>
+</div>
+
+<h2>Check Audio Sources within JS8</h2>
+
+<p class="margin-bottom-md">1 - Check to make sure your audio settings are
+    appropriate for the SDr you are using. Depicted
+    below is what your settings should look like if using
+    VBCable with an online SDR:</p>
+
+<img src="../assets/images/js8call-audio-settings.png" alt="JS8Call audio settings" />

@@ -1,3 +1,8 @@
+th, td {
+    border-color: #000;
+    border-style: solid;
+}
+
 .centered {
     display: block;
     margin-left: auto;
@@ -9,7 +14,7 @@
     font-weight: lighter;
 }
 
-.largechar {
+.text-larger {
     font-size: 150%;
 }
 
@@ -37,6 +42,11 @@
     writing-mode: vertical-rl;
 }
 
+.text-superscript {
+    vertical-align: super;
+    font-size: smaller;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -45,6 +55,10 @@
 .col {
     display: flex;
     flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .bordered {
@@ -128,8 +142,23 @@
     text-align: center;
 }
 
-.schedule th, td {
-    border-color: #000;
-    border-style: solid;
+#redcons ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
+#ghostnet-ale-frequencies .row > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+#ghostnet-ale-frequencies table td {
+    width: 50%;
+}
+
+img#ghostnet-ale-frequency-list {
+    padding: 0;
+    width: 100%;
+}

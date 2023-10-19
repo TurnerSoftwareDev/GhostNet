@@ -1,4 +1,4 @@
-<h2 class="title-font text-uppercase"><span class="largechar">B</span>attle <span class="largechar">T</span>racking</h2>
+<h2 class="title-font text-uppercase"><span class="text-larger">B</span>attle <span class="text-larger">T</span>racking</h2>
 
 ## Step 3: Establish TOC, Staff Functions Begin
 

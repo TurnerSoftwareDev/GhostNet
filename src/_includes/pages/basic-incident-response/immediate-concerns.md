@@ -1,5 +1,5 @@
 <h2 class="title-font text-uppercase">
-    <span class="largechar">I</span>mmediate <span class="largechar">C</span>oncerns
+    <span class="text-larger">I</span>mmediate <span class="text-larger">C</span>oncerns
 </h2>
 
 ## Step 1: Physical Security

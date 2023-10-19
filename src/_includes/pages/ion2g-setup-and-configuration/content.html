@@ -1,0 +1,89 @@
+<h2>Standard Config Works</h2>
+
+<p class="margin-bottom-sm">As you install Ion2G ALE, the base configuration works fine to make contacts. However, you will need to
+    check a few settings to make sure everyone is on the same page.</p>
+
+<div class="row margin-bottom-sm">
+    <div class="col">
+        <p>
+            <span class="text-bold">1 - Load Codeplug:</span> Without a codeplug, you will talk
+            to no one. You have three main options: You can
+            load the standard codeplug using the “Load from
+            Web” button (requires an internet connection). You
+            can also load the GhostNet codeplug which can be
+            downloaded via a variety of sources. Or you can
+            manually create a list of channels, choosing frequencies
+            by hand. If you wish to manually recreate
+            the GhostNet freqs without access to the digital
+            file, you can do so easily on the next page.
+        </p>
+
+        <p>If you already have a
+            Codeplug or are using the
+            GhostNet Codeplug, select
+            Load From File and choose
+            the codeplug file.</p>
+
+        <p>If you are starting from
+            scratch, and have internet
+            access, you can load the
+            standard codeplug here.</p>
+    </div>
+
+    <img id="ion2g-ale-code-plug-configuration" src="../assets/images/ion2g-ale-code-plug-configuration.jpg" alt="Ion2G code plug configuration screenshot"/>
+</div>
+
+<div class="row margin-bottom-sm">
+    <img id="ion2g-ale-new-channel" src="../assets/images/ion2g-ale-new-channel.png" alt="Ion2G new channel screenshot"/>
+
+    <p>If you are setting this up
+        without internet access,
+        and without a pre-established
+        codeplug file,
+        you will need to go to
+        Settings -> Channels ->
+        Click the Plus symbol
+        on the upper right, and
+        add in each channel
+        manually.</p>
+</div>
+
+<div class="row margin-bottom-sm">
+    <img id="ion2g-ale-new-address" src="../assets/images/ion2g-ale-new-address.jpg" alt="Ion2G new address screenshot"/>
+
+    <p><span class="text-bold">2 - Set Self Address:</span> It’s not super clear in the documentation,
+        but you cannot transmit at all unless you
+        set a self address for each of the networks you want
+        to operate on. This setting is not cross-referenced
+        with any database, so in the event of an apocalyptic
+        emergency, or for MARS work, any callsign will
+        be accepted by the software. To change this, click
+        Settings -> ALE Self Addresses -> Click Plus symbol
+        at upper right to add New ALE Address.
+        Put your callsign in the Address box, select a network
+        in the drop down menu, and check the box marked
+        Primary. You will need to create a Self Address for
+        each of the networks you operate on. This is just
+        putting in your callsign for each of these networks.
+        When using the standard code-plug, this means you
+        will need 3 addresses, one for HFN, HLN, and HFN
+        AQC. If using the GhostNet, you will need an additional
+        address for that.</p>
+</div>
+
+<p class="margin-bottom-sm"><span class="text-bold">3 - Check Audio Source:</span> This is not set automatically, you need to select your audio
+    input and output
+    manually. Go to Settings -> Audio and select the appropriate input and output audio sources from the drop
+    down menus.</p>
+
+<p class="margin-bottom-sm"><span class="text-bold">4 - Check Radio CAT Control:</span> If you are familiar with setting up JS8Call or FT8, this
+    should be familiar.
+    This is found under Settings -> Radio Control. Make sure the appropriate radio is selected, along with the
+    correct CI-V address, com port, and baud rate. If any of these settings do not match your radio, comms will
+    not be successful.</p>
+
+<p><span class="text-bold">5 - Disable Bands not compatible with your antenna:</span> Using the standard codeplugs, BE
+    CAREFUL! Most
+    people do not have 160m, 80m, or 60m antennas, but these freqs are a part of the standard codeplugs. This
+    means that your radio will try to transmit on theses freqs, even if your antenna is not tuned for it. This can
+    damage your transceiver.</p>

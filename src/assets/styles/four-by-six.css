@@ -61,6 +61,10 @@ aside {
     padding: .015625in; /* 1/64th inch */
 }
 
+.padding-md {
+    padding: .03125in; /* 1/32nd inch */
+}
+
 .margin-bottom-sm {
     margin-bottom: .015625in; /* 1/64th inch */
 }
@@ -142,7 +146,7 @@ aside {
     margin-bottom: .03125in; /* 1/32th inch */
 }
 
-.schedule th, td {
+th, td {
     border-width: .015625in; /* 1/64th inch */
 }
 
@@ -191,6 +195,42 @@ aside {
 /* Style the first column */
 .data-bridges tr:not(:first-child) td:first-child {
     width: 1.5in;
+}
+
+#redcons tr td:first-child {
+    width: 1.0in;
+}
+
+#redcons li {
+    margin-left: 0;
+}
+
+#ppe tr:not(:last-child) td {
+    padding: .03125in; /* 1/32th inch */
+}
+
+#ion2g-ale-code-plug-configuration {
+    max-width: 50%;
+}
+
+#ion2g-ale-new-channel {
+    max-width: 25%;
+}
+
+#ion2g-ale-new-address {
+    max-width: 50%;
+}
+
+#ghostnet-ale-frequencies > div:first-child {
+    margin-bottom: 0.45in;
+}
+
+#ghostnet-ale-frequencies .row {
+    column-gap: .03125in; /* 1/32th inch */
+}
+
+#ghostnet-ale-frequencies tr .padding-sm {
+    padding: .0625in; /* 1/16th inch */
 }
 
 @media print {

@@ -167,6 +167,8 @@ aside {
 }
 
 .logo-title img {
+    margin: 0;
+    padding: 0;
     height: auto;
     max-width: 0.6in;
 }

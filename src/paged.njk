@@ -155,4 +155,32 @@ layout: layouts/paged.njk
         <section class="bordered padding-sm bg-light-green">{% markdown %}{%- include "pages/incident-response-monitoring/osint.md" -%}{% endmarkdown %}</section>
         <p class="pagenum"></p>
     </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/readiness-conditions/title.html" -%}
+        <section>{%- include "pages/readiness-conditions/redcons.html" -%}</section>
+        <section>{%- include "pages/readiness-conditions/ppe.html" -%}</section>
+        <p class="pagenum"></p>
+    </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/platform-overview/title.html" -%}
+        <section class="bordered padding-sm bg-light-blue margin-bottom-md">{% markdown %}{%- include "pages/platform-overview/js8call.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-salmon margin-bottom-md">{% markdown %}{%- include "pages/platform-overview/ion2g-hf-ale.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-yellow margin-bottom-md">{% markdown %}{%- include "pages/platform-overview/winlink.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-tan">{% markdown %}{%- include "pages/platform-overview/meshtastic.md" -%}{% endmarkdown %}</section>
+        <p class="pagenum"></p>
+    </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/ion2g-setup-and-configuration/title.html" -%}
+        <section>{%- include "pages/ion2g-setup-and-configuration/content.html" -%}</section>
+        <p class="pagenum"></p>
+    </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/ghostnet-ale-frequency-list/title.html" -%}
+        <section>{%- include "pages/ghostnet-ale-frequency-list/content.html" -%}</section>
+        <p class="pagenum"></p>
+    </section>
 </article>

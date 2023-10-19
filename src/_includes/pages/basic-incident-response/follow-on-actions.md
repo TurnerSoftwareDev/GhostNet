@@ -1,4 +1,4 @@
-<h2 class="title-font text-uppercase"><span class="largechar">F</span>ollow-<span class="largechar">O</span>n <span class="largechar">A</span>ctions</h2>
+<h2 class="title-font text-uppercase"><span class="text-larger">F</span>ollow-<span class="text-larger">O</span>n <span class="text-larger">A</span>ctions</h2>
 
 ## Step 4: Hotwash, After Action Review, Logistical Recovery
 

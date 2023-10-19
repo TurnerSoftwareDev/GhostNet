@@ -123,7 +123,7 @@ img {
     width: 100%;
 }
 
-.schedule th, td {
+th, td {
     border-width: 2px;
 }
 
@@ -154,4 +154,8 @@ img {
 /* Style the "all times gmt" column */
 .ghostnet-times tr:not(:first-child) td:nth-child(2) {
     width: 10rem;
+}
+
+#ghostnet-ale-frequencies {
+    column-gap: 1rem;
 }

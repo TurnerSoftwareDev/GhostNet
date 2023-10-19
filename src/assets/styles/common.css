@@ -4,6 +4,15 @@
     margin-right: auto;
 }
 
+.title-font {
+    font-family: MinionPro-Regular, serif;
+    font-weight: lighter;
+}
+
+.largechar {
+    font-size: 150%;
+}
+
 .text-centered {
     text-align: center;
 }

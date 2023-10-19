@@ -107,3 +107,8 @@ layout: layouts/web.njk
 
 {%- include "pages/help-my-js8call-isnt-working/title.html" -%}
 <section>{%- include "pages/help-my-js8call-isnt-working/content.html" -%}</section>
+
+{%- include "pages/basic-incident-response/title.html" -%}
+<section class="bordered padding-sm bg-light-pink">{% markdown %}{%- include "pages/basic-incident-response/immediate-concerns.md" -%}{% endmarkdown %}</section>
+<section class="bordered padding-sm bg-light-salmon">{% markdown %}{%- include "pages/basic-incident-response/battle-tracking.md" -%}{% endmarkdown %}</section>
+<section class="bordered padding-sm bg-light-blue">{% markdown %}{%- include "pages/basic-incident-response/follow-on-actions.md" -%}{% endmarkdown %}</section>

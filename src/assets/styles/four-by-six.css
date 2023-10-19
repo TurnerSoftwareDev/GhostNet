@@ -33,13 +33,7 @@ li {
 }
 
 h1 {
-    font-family: MinionPro-Regular, serif;
     font-size: 13pt;
-    font-weight: lighter;
-}
-
-h1 > .largechar {
-    font-size: 18pt;
 }
 
 h2,h3 {

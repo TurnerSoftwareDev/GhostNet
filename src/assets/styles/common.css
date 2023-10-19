@@ -4,6 +4,15 @@
     margin-right: auto;
 }
 
+.title-font {
+    font-family: MinionPro-Regular, serif;
+    font-weight: lighter;
+}
+
+.largechar {
+    font-size: 150%;
+}
+
 .text-centered {
     text-align: center;
 }
@@ -69,6 +78,10 @@
 
 .bg-blue {
     background-color: #0072b2;
+}
+
+.bg-light-tan {
+    background-color: #e1ddd1;
 }
 
 .bg-light-yellow {

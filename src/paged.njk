@@ -135,4 +135,24 @@ layout: layouts/paged.njk
         <section>{%- include "pages/help-my-js8call-isnt-working/content.html" -%}</section>
         <p class="pagenum"></p>
     </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/basic-incident-response/title.html" -%}
+        <section class="bordered padding-sm bg-light-pink margin-bottom-md">{% markdown %}{%- include "pages/basic-incident-response/immediate-concerns.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-salmon margin-bottom-md">{% markdown %}{%- include "pages/basic-incident-response/battle-tracking.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-blue margin-bottom-md">{% markdown %}{%- include "pages/basic-incident-response/follow-on-actions.md" -%}{% endmarkdown %}</section>
+        <p class="pagenum"></p>
+    </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/incident-response-monitoring/title.html" -%}
+        <section>{% markdown %}{%- include "pages/incident-response-monitoring/basic-monitoring-capabilities.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-pink margin-bottom-sm">{% markdown %}{%- include "pages/incident-response-monitoring/sigint.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-tan margin-bottom-sm">{% markdown %}{%- include "pages/incident-response-monitoring/imint.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-blue margin-bottom-sm">{% markdown %}{%- include "pages/incident-response-monitoring/comint.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-gray margin-bottom-sm">{% markdown %}{%- include "pages/incident-response-monitoring/masint.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-salmon margin-bottom-sm">{% markdown %}{%- include "pages/incident-response-monitoring/humint.md" -%}{% endmarkdown %}</section>
+        <section class="bordered padding-sm bg-light-green">{% markdown %}{%- include "pages/incident-response-monitoring/osint.md" -%}{% endmarkdown %}</section>
+        <p class="pagenum"></p>
+    </section>
 </article>

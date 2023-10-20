@@ -132,6 +132,12 @@ th, td {
     justify-content: space-between;
 }
 
+.blank-underline {
+    display: inline-block;
+    width: 50%;
+    border-bottom: 1px solid #000;
+}
+
 .exchange-paths {
     display: flex;
     flex-direction: row;

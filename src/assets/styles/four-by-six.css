@@ -233,6 +233,31 @@ th, td {
     padding: .0625in; /* 1/16th inch */
 }
 
+#template {
+    margin-top: 0.35in;
+}
+
+#template table {
+    width: 3.85in;
+}
+
+#template table tr {
+    height: 0.7in;
+}
+
+#template table tr:first-child,
+#template table tr:nth-child(2) {
+    height: 0.25in;
+}
+
+#template table tr:nth-child(3) {
+    height: 2.0in;
+}
+
+#template table tr > td:first-child {
+    width: 0.375in; /* 3/8 inch */
+}
+
 @media print {
     .page {
         page-break-after: always;

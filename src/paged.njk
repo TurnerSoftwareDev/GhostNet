@@ -183,4 +183,32 @@ layout: layouts/paged.njk
         <section>{%- include "pages/ghostnet-ale-frequency-list/content.html" -%}</section>
         <p class="pagenum"></p>
     </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/ghostnet-receive-only-options/title.html" -%}
+        <section class="margin-bottom-sm">{% markdown %}{%- include "pages/ghostnet-receive-only-options/intro.md" -%}{% endmarkdown %}</section>
+        <section class="bordered bg-light-salmon padding-sm margin-bottom-sm">{% markdown %}{%- include "pages/ghostnet-receive-only-options/needed-hardware.md" -%}{% endmarkdown %}</section>
+        <section class="bordered bg-light-blue padding-sm margin-bottom-sm">{% markdown %}{%- include "pages/ghostnet-receive-only-options/needed-software.md" -%}{% endmarkdown %}</section>
+        <section>{% markdown %}{%- include "pages/ghostnet-receive-only-options/simplified-setup-checklist.md" -%}{% endmarkdown %}</section>
+        <p class="pagenum"></p>
+    </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/last-ditch-receive-only-options/title.html" -%}
+        <section>{% markdown %}{%- include "pages/last-ditch-receive-only-options/intro.md" -%}{% endmarkdown %}</section>
+        <section>{% markdown %}{%- include "pages/last-ditch-receive-only-options/you-still-need-a-radio.html" -%}{% endmarkdown %}</section>
+        <p class="pagenum"></p>
+    </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/template/title.html" -%}
+        <section>{%- include "pages/template/content.html" -%}</section>
+        <div class="pagenum">Template </div>
+    </section>
+
+    <section class="page stamped unofficial">
+        {%- include "pages/template/title.html" -%}
+        <section>{%- include "pages/template/content.html" -%}</section>
+        <div class="pagenum">Template </div>
+    </section>
 </article>

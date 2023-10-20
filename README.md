@@ -26,7 +26,7 @@ the idea, and the 4" x 6" PDF document he publishes is very useful, but I would 
 like the information to be available as a website and in a variety of standard print sizes.
 
 This project builds a website containing S2 Underground's GhostNet information, and
-a 4x6 inch PDF for download.
+PDFs for download to print.
 
 I am not affiliated with S2 Underground, so any feedback on GhostNet as a project
 should be directed toward the creator of [that project](https://github.com/s2underground/GhostNet).
